@@ -1,0 +1,86 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "canadacentral"
+        },
+        "FireboxVMName": {
+            "value": "FWName"
+        },
+        "userName": {
+            "value": "wgadmin"
+        },
+        "newOrExistingStorage": {
+            "value": "new"
+        },
+        "storageAccountName": {
+            "value": "abcfwstorageaccount001"
+        },
+        "storageResourceGroupName": {
+            "value": "ResourceGroup"
+        },
+        "storageAccountType": {
+            "value": "Standard_LRS"
+        },
+        "vmSize": {
+            "value": "Standard_A1_v2"
+        },
+        "newOrExistingVnet": {
+            "value": "existing"
+        },
+        "vnetName": {
+            "value": "abc-vnet01"
+        },
+        "vnetAddressPrefix": {
+            "value": [
+                "10.2.0.0/16"
+            ]
+        },
+        "vnetResourceGroupName": {
+            "value": "ABC-RG-NETWORK"
+        },
+        "subnet1Name": {
+            "value": "External"
+        },
+        "subnet1Prefix": {
+            "value": "10.2.5.0/24"
+        },
+        "FireboxIPEth0": {
+            "value": "10.2.5.4"
+        },
+        "subnet2Name": {
+            "value": "Trusted"
+        },
+        "subnet2Prefix": {
+            "value": "10.2.6.0/24"
+        },
+        "FireboxIPEth1": {
+            "value": "10.2.6.4"
+        },
+        "networkSecurityGroup": {
+            "value": "None"
+        },
+        "newOrExistingPublicIP": {
+            "value": "new"
+        },
+        "publicIPAddressName": {
+            "value": "PIP"
+        },
+        "publicAddressType": {
+            "value": "Dynamic"
+        },
+        "publicIPResourceGroupName": {
+            "value": "ResourceGroup"
+        },
+        "publicIpSku": {
+            "value": "Basic"
+        },
+        "dnsLabelPrefix": {
+            "value": "fwname-c0f3e94c37"
+        },
+        "sshKeyData": {
+            "value": "ssh-public-key"
+        }
+    }
+}
