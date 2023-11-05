@@ -6,7 +6,7 @@
             "value": ""
         },
         "intune": {
-            "value": 
+            "value": ""
         },
         "hostpoolName": {
             "value": ""
@@ -127,7 +127,7 @@
             "value": false
         },
         "maxSessionLimit": {
-            "value": 
+            "value": ""
         },
         "workspaceResourceGroup": {
             "value": ""
